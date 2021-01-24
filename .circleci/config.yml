@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="5"
+    android:versionName="3.2"
+    package="com.infoeasysorocaba"
+    platformBuildVersionCode="25"
+    platformBuildVersionName="7.1.1">
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="22" />
+
+    <uses-permission
+        android:name="android.permission.CALL_PHONE" />
+
+    <uses-permission
+        android:name="android.permission.INTERNET" />
+
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:theme="@ref/0x7f060165"
+        android:label="InfoEasy Sorocaba"
+        android:icon="@ref/0x7f020055"
+        android:name=".SketchApplication"
+        android:allowBackup="true"
+        android:largeHeap="true">
+
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="0x480"
+            android:windowSoftInputMode="0x2">
+
+            <intent-filter>
+
+                <action
+                    android:name="android.intent.action.MAIN" />
+
+                <category
+                    android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ServicosActivity"
+            android:configChanges="0x480"
+            android:windowSoftInputMode="0x2" />
+
+        <activity
+            android:name=".FotosActivity"
+            android:configChanges="0x480"
+            android:windowSoftInputMode="0x2" />
+
+        <activity
+            android:name=".ContatoActivity"
+            android:configChanges="0x480"
+            android:windowSoftInputMode="0x2" />
+
+        <activity
+            android:name=".FacebookActivity"
+            android:configChanges="0x480"
+            android:windowSoftInputMode="0x2" />
+
+        <activity
+            android:name=".FeedbackActivity"
+            android:configChanges="0x480"
+            android:windowSoftInputMode="0x2" />
+
+        <activity
+            android:name=".YoutubeActivity"
+            android:configChanges="0x480"
+            android:windowSoftInputMode="0x2" />
+
+        <activity
+            android:name=".NoticiasActivity"
+            android:configChanges="0x480"
+            android:windowSoftInputMode="0x2" />
+
+        <activity
+            android:name=".Will1Activity"
+            android:configChanges="0x480"
+            android:windowSoftInputMode="0x2" />
+
+        <activity
+            android:name=".Will2Activity"
+            android:configChanges="0x480"
+            android:windowSoftInputMode="0x2" />
+
+        <activity
+            android:name=".Will3Activity"
+            android:configChanges="0x480"
+            android:windowSoftInputMode="0x2" />
+
+        <activity
+            android:name=".Will4Activity"
+            android:configChanges="0x480"
+            android:windowSoftInputMode="0x2" />
+
+        <activity
+            android:name=".Will5Activity"
+            android:configChanges="0x480"
+            android:windowSoftInputMode="0x2" />
+
+        <activity
+            android:name=".Will6Activity"
+            android:configChanges="0x480"
+            android:windowSoftInputMode="0x2" />
+
+        <activity
+            android:name=".Will7Activity"
+            android:configChanges="0x480"
+            android:windowSoftInputMode="0x2" />
+
+        <activity
+            android:name=".Will8Activity"
+            android:configChanges="0x480"
+            android:windowSoftInputMode="0x2" />
+
+        <activity
+            android:name=".Will9Activity"
+            android:configChanges="0x480"
+            android:windowSoftInputMode="0x2" />
+
+        <activity
+            android:name=".Will10Activity"
+            android:configChanges="0x480"
+            android:windowSoftInputMode="0x2" />
+
+        <activity
+            android:name=".Will11Activity"
+            android:configChanges="0x480"
+            android:windowSoftInputMode="0x2" />
+
+        <activity
+            android:name=".DebugActivity"
+            android:screenOrientation="1" />
+    </application>
+</manifest>
